@@ -3,12 +3,15 @@
 ###Description
 Code snippets using WatchKit for making Apple Watch Apps.
 
-###Folder: HelloWatch
+###Project: HelloWatch
 * A Simple 'Hello World' Apple Watch app.
 
-###Folder: Button
-* Creating a label as an IBOutlet.
-* Creating an IBAction for button tap.
+###Project: WatchButton
+* IBOutlet for dynamically updating label text.
+* IBAction for handling button tap event.
+
+
+
 
 
 
