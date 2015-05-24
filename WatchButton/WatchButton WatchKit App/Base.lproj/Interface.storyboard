@@ -10,8 +10,8 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchButton_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Label" id="69d-9i-q4E"/>
-                        <button width="1" alignment="left" title="Press" id="r72-jI-G5s">
+                        <label width="136" alignment="left" text="Tap" textAlignment="center" numberOfLines="2" id="69d-9i-q4E"/>
+                        <button width="98" height="61" alignment="center" backgroundImage="star-wars-long-shadow-flat-icons-storm-trooper" id="r72-jI-G5s">
                             <connections>
                                 <action selector="tapButton" destination="AgC-eL-Hgc" id="74J-eV-Fta"/>
                             </connections>

@@ -17,7 +17,7 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func tapButton() {
         
-        label.setText("Sup")
+        label.setText("Let me see your identification")
     }
     
     override func awakeWithContext(context: AnyObject?) {

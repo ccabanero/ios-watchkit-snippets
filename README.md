@@ -12,8 +12,12 @@ Code snippets using WatchKit for making Apple Watch Apps.
 * Once the iPhone simulator is running, you may also need to navigate to __iOS Simulator--> Hardware --> External Displays --> Apple Watch__.
 
 ###Project: WatchButton
+
+![icon](imgs/screen_button.png)
+
 * IBOutlet for dynamically updating label text. 
 * IBAction for handling button tap event.
+* Using image asset for button.
 
 ###Project: WatchImage
 * IBOutlet for dynamically setting Image.
