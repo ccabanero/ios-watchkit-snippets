@@ -11,6 +11,7 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchImage_WatchKit_App" customModuleProvider="target">
                     <items>
                         <switch width="1" alignment="left" value="YES" title="Switch" id="Ise-WB-mjg">
+                            <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="handleSwitch:" destination="AgC-eL-Hgc" id="ysC-dq-job"/>
                             </connections>

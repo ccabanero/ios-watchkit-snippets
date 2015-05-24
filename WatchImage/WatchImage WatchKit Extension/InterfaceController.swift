@@ -20,13 +20,13 @@ class InterfaceController: WKInterfaceController {
             
             println("user switched ON")
             
-            image.setImageNamed("cat_grumpy")
+            image.setImageNamed("r2d2")
             
         } else {
             
             println("user switched OFF")
             
-            image.setImageNamed("cat_asleep")
+            image.setImageNamed("c3p0")
         }
     }
     
@@ -34,7 +34,7 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         //default image
-        image.setImageNamed("cat_grumpy")
+        image.setImageNamed("r2d2")
     }
 
     override func willActivate() {

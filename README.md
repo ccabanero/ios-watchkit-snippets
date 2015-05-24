@@ -15,11 +15,14 @@ Code snippets using WatchKit for making Apple Watch Apps.
 
 ![icon](imgs/screen_button.png)
 
-* IBOutlet for dynamically updating label text. 
+* IBOutlet for dynamically updating label. 
 * IBAction for handling button tap event.
 * Using image asset for button.
 
 ###Project: WatchImage
+
+![icon](imgs/screen_image.png)
+
 * IBOutlet for dynamically setting Image.
 * IBAction for handling Switch event.
 
