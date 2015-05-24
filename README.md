@@ -26,7 +26,7 @@ Swift
 * Uses an IBOutlet to allow for programmatically updating the label's text. 
 * Uses a custom image asset when presenting a button.
 
-###Project: WatchImage
+###Project: WatchImage (and Switch)
 
 ![icon](imgs/screen_image.png)
 
@@ -63,7 +63,7 @@ Shout out to [Filipe de Carvalho](https://www.behance.net/gallery/17998561/Star-
 * The TableInterfaceController scene is composed of a Table that uses the __TableRowController__ to define the data for populating each row's label and image.
 * The __DetailInterfaceController__ is the WKInterfaceController subclass which is responsible for presenting the 'details' for the table row that a user tapped on.
 * In Interface.storyboard, a __push segue__ is created between the row and the DetailInterfaceController scene.  This segue has the identifier __DetailsSegue__.
-* Data is passed from one __TableInterfaceController__ using the contextForSegueWithIdentifier method.
+* Data is passed from the __TableInterfaceController__ using the contextForSegueWithIdentifier method.
 * Data is received by the __DetailInterfaceController__ in the awakeWithContext method.
 
 ###Deploying to your Apple Watch for Testing
