@@ -1,7 +1,13 @@
-# ios-watchkit-snippets
+ios-watchkit-snippets
+=====================
 
-###Description
-Code snippets using WatchKit for making Apple Watch Apps.
+##Description
+Code snippets using WatchKit for making Apple Watch Apps.  Each folder in this repo represents a different project described below.
+
+![icon](imgs/watchkit.png)
+
+##Language
+Swift
 
 ###Project: HelloWatch
 
@@ -51,3 +57,6 @@ To run an Xcode project on your Apple Watch, do the following:
 * To remove your app from your Apple Watch, use the Apple Watch App on your IPhone to not show it.  To remove the app from both the Apple Watch and iPhone, simply delete the app from your iPhone.
 
 
+##Connect
+* Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
+* GitHub: [ccabanero](http:///github.com/ccabanero)
