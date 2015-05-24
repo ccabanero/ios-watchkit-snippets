@@ -10,7 +10,12 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloWatch_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Hello Watch" id="ne5-s0-dpV"/>
+                        <label width="117" alignment="left" text="Wait ..." textAlignment="center" minimumScaleFactor="0.90000000000000002" id="ne5-s0-dpV">
+                            <fontDescription key="font" type="system" pointSize="35"/>
+                        </label>
+                        <label width="136" alignment="center" text="Wat?" textAlignment="center" id="9TJ-ls-gdh">
+                            <fontDescription key="font" type="system" pointSize="45"/>
+                        </label>
                     </items>
                 </controller>
             </objects>

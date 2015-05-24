@@ -4,11 +4,12 @@
 Code snippets using WatchKit for making Apple Watch Apps.
 
 ###Project: HelloWatch
+
+![icon](imgs/screen_hello.png)
+
 * A Simple 'Hello World' Apple Watch app.
-
-To view the Apple Watch app in the Simulator, simply choose the 'WatchKit App' target.
-
-Once the iPhone simulator is running, you may also need to navigate to __iOS Simulator--> Hardware --> External Displays --> Apple Watch__.
+* To run the Apple Watch app in the Simulator, simply choose the 'WatchKit App' target.
+* Once the iPhone simulator is running, you may also need to navigate to __iOS Simulator--> Hardware --> External Displays --> Apple Watch__.
 
 ###Project: WatchButton
 * IBOutlet for dynamically updating label text. 
