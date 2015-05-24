@@ -44,6 +44,15 @@ Shout out to [Filipe de Carvalho](https://www.behance.net/gallery/17998561/Star-
 * Using the Identity Inspector to explicitly declare the TableRowController to be used by the Interface.storyboard.
 * Populating table rows based on a Collection of Dictionaries.
 
+###Project: WatchPageNavigation
+
+![icon](imgs/screen_page_navigation.png)
+
+* Shows how to set up a project using __Page based Navigation__ whereby a user can swipe right-left to move between different screens.
+* Creating three distinct WKInterfaceController sub-classes - one for each page.
+* In Interface.storyboard, adding a new InterfaceController for each page in the story board and explicitly declaring that InterfaceController's class in the Identity Inspector.
+* Creating a segue between InterfaceController scenes.
+
 ###Deploying to your Apple Watch for Testing
 To run an Xcode project on your Apple Watch, do the following:
 
@@ -55,7 +64,6 @@ To run an Xcode project on your Apple Watch, do the following:
 * Choose the 'WatchKit App' target and your device to run. 
 * Test the app on your watch!
 * To remove your app from your Apple Watch, use the Apple Watch App on your IPhone to not show it.  To remove the app from both the Apple Watch and iPhone, simply delete the app from your iPhone.
-
 
 ##Connect
 * Twitter: [@clintcabanero](http://twitter.com/clintcabanero)
