@@ -17,10 +17,9 @@ Swift
 * To run the Apple Watch app in the Simulator, simply choose the 'WatchKit App' target.
 * Once the iPhone simulator is running, you may also need to navigate to __iOS Simulator--> Hardware --> External Displays --> Apple Watch__.
 
-###Project: WatchButton
+###Project: WatchButton 
 
 ![icon](imgs/screen_button.png)
-
 
 * Demonstrates using an IBAction for handling button tap event.
 * Uses an IBOutlet to allow for programmatically updating the label's text. 
@@ -39,6 +38,7 @@ Shout out to [Filipe de Carvalho](https://www.behance.net/gallery/17998561/Star-
 
 ![icon](imgs/screen_table.png)
 
+* Demonstrates a scrollable table interface.
 * Adding a Table to the Interface.storyboard.
 * Creating a row 'template' with an image and a label.
 * Creating a TableRowController class in the WatchKit Extension target.
@@ -65,6 +65,15 @@ Shout out to [Filipe de Carvalho](https://www.behance.net/gallery/17998561/Star-
 * In Interface.storyboard, a __push segue__ is created between the row and the DetailInterfaceController scene.  This segue has the identifier __DetailsSegue__.
 * Data is passed from the __TableInterfaceController__ using the contextForSegueWithIdentifier method.
 * Data is received by the __DetailInterfaceController__ in the awakeWithContext method.
+
+###Project: WatchMap
+
+![icon](imgs/screen_watchmap.png)
+
+* Demonstrates adding a Map to your Apple Watch App. 
+* A map is added to the Interface.storyboard.
+* Inside the WKInterfaceController subclass, the maps default center and zoom level is set.  
+* A red pin annotation is added to the center of the map.
 
 ###Deploying to your Apple Watch for Testing
 To run an Xcode project on your Apple Watch, do the following:
