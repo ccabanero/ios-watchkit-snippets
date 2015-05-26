@@ -75,6 +75,16 @@ Shout out to [Filipe de Carvalho](https://www.behance.net/gallery/17998561/Star-
 * Inside the WKInterfaceController subclass, the maps default center and zoom level is set.  
 * A red pin annotation is added to the center of the map.
 
+###Project: WatchMapUserLocation
+
+![icon](imgs/screen_watchmapuserlocation.png)
+
+* Demonstrates zooming a map to the User's Location.
+* Adding CoreLocation.framework to your iPhone app (and adding required Info.plist entries).
+* In the WKInterfaceController subclass; importing Core Location, adding a CLLocationManager property, and implementing CLLocationManagerDeletate protocol methods.
+* Using the locationManager:didUpdateLocations method to fetch the user's location and center the map.
+
+
 ###Deploying to your Apple Watch for Testing
 To run an Xcode project on your Apple Watch, do the following:
 
